@@ -57,12 +57,14 @@ Fun Bus wants you to make their site more interactive. They are relying on you t
 	* [X] `mouseup`
 	![mouseup](https://github.com/Devin-Bielejec/DOM-II/blob/Devin-Bielejec/img/mouseup.JPG)
 	* [X] `scroll`
-	![scroll]https://github.com/Devin-Bielejec/DOM-II/blob/Devin-Bielejec/img/scroll.JPG)
+	![scroll](https://github.com/Devin-Bielejec/DOM-II/blob/Devin-Bielejec/img/scroll.JPG)
 
 Using the 10 unique events, find ways to update the DOM in creative ways. For example you could change colors, animate objects, remove objects, etc.
 
-* [ ] Nest two similar events somewhere in the site and prevent the event propagation properly
+* [X] Nest two similar events somewhere in the site and prevent the event propagation properly
+![Stop Propagation](https://github.com/Devin-Bielejec/DOM-II/blob/Devin-Bielejec/img/stopPropagation.JPG)
 * [ ] Stop the navigation from items from refreshing the page by using `preventDefault()`
+![Prevent Default](https://github.com/Devin-Bielejec/DOM-II/blob/Devin-Bielejec/img/preventDefault.JPG)
 
 ## Stretch Task:
 

@@ -46,36 +46,11 @@ document.querySelector(".intro p").addEventListener("click", e => {
 
 document.querySelector("header.intro").addEventListener("click", e => alert("header was clicked"));
 
-//modified from mdn -giving up on this drag drop stuff
-const middleImg = document.querySelector("#first");
-const middleImg2 = document.querySelector("#second");
-[middleImg, middleImg2].forEach(item => 
-{
-    item.setAttribute("draggable", true);
-    item.setAttribute("ondragstart","drag(event)");
+
+//stop the nav links from refreshing the page
+document.querySelectorAll("nav a").forEach(item => {
+    item.addEventListener("click", e => {
+        e.target.style.color = "pink";
+        e.preventDefault();
+    })
 })
-
-const middleImgDiv = middleImg.parentNode;
-middleImgDiv.id = "middleImg";
-const middleImg2Div = middleImg2.parentNode;
-middleImg2Div.id = "middleImg2";
-[middleImgDiv, middleImg2Div].forEach(item => {
-    item.setAttribute("ondrop", "drop(event)");
-    item.setAttribute("ondragover", "drag(event)");
-})
-
-
-function drag(e){
-    e.dataTransfer.setData("text", e.target.id);
-}
-
-function allowDrop(e){
-    e.preventDefault();
-}
-
-function drop(e){
-    e.preventDefault();
-    const data = e.dataTransfer.getData("text")
-    e.target.appendChild(document.getElementById(data));
-}
-
