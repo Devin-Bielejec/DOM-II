@@ -37,8 +37,14 @@ alert("Are you sure you want to copy that?");
 //10 cut
 document.querySelector("p").addEventListener("cut", e => alert("Are you sure you want to cut that?"));
 
+//stop propogation example
+document.querySelector(".intro p").addEventListener("click", e => {
+    console.log(e);
+    alert("oh the paragraph was clicked, but this won't count as the header being clicked");
+    e.stopPropagation();
+});
 
-
+document.querySelector("header.intro").addEventListener("click", e => alert("header was clicked"));
 
 //modified from mdn -giving up on this drag drop stuff
 const middleImg = document.querySelector("#first");
