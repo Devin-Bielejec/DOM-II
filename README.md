@@ -43,7 +43,7 @@ Fun Bus wants you to make their site more interactive. They are relying on you t
 	* [X] `mousedown`
 	![mousedown](https://github.com/Devin-Bielejec/DOM-II/blob/Devin-Bielejec/img/mousedown.JPG)
 	* [X] `copy`
-	![copy](https://github.com/Devin-Bielejec/DOM-II/blob/Devin-Bielejec/img/copy.JPG
+	![copy](https://github.com/Devin-Bielejec/DOM-II/blob/Devin-Bielejec/img/copy.JPG)
 	* [X] `cut`
 	![cut](https://github.com/Devin-Bielejec/DOM-II/blob/Devin-Bielejec/img/cut.JPG)
 	* [X] `dblclick`
@@ -57,7 +57,7 @@ Fun Bus wants you to make their site more interactive. They are relying on you t
 	* [X] `mouseup`
 	![mouseup](https://github.com/Devin-Bielejec/DOM-II/blob/Devin-Bielejec/img/mouseup.JPG)
 	* [X] `scroll`
-	![scroll]https://github.com/Devin-Bielejec/DOM-II/blob/Devin-Bielejec/img/scroll.JPG
+	![scroll]https://github.com/Devin-Bielejec/DOM-II/blob/Devin-Bielejec/img/scroll.JPG)
 
 Using the 10 unique events, find ways to update the DOM in creative ways. For example you could change colors, animate objects, remove objects, etc.
 
