@@ -39,25 +39,25 @@ Fun Bus wants you to make their site more interactive. They are relying on you t
 
 * [X] Using your [index.js file](js/index.js), create 10 [unique event listeners](https://developer.mozilla.org/en-US/docs/Web/Events). using your creativity to make the Fun Bus site more interactive.  Here are some unique events you could try to use: 
 	* [X] `mouseover`
-	![mouseover](https://github.com/Devin-Bielejec/DOM-II/blob/Devin-Bielejec/img/mouseover.jpg)
+	![mouseover](https://github.com/Devin-Bielejec/DOM-II/blob/Devin-Bielejec/img/mouseover.JPG)
 	* [X] `mousedown`
-	![mousedown](https://github.com/Devin-Bielejec/DOM-II/blob/Devin-Bielejec/img/mousedown.jpg)
+	![mousedown](https://github.com/Devin-Bielejec/DOM-II/blob/Devin-Bielejec/img/mousedown.JPG)
 	* [X] `copy`
-	![copy](https://github.com/Devin-Bielejec/DOM-II/blob/Devin-Bielejec/img/copy.jpg
+	![copy](https://github.com/Devin-Bielejec/DOM-II/blob/Devin-Bielejec/img/copy.JPG
 	* [X] `cut`
-	![cut](https://github.com/Devin-Bielejec/DOM-II/blob/Devin-Bielejec/img/cut.jpg)
+	![cut](https://github.com/Devin-Bielejec/DOM-II/blob/Devin-Bielejec/img/cut.JPG)
 	* [X] `dblclick`
-	![dblclick](https://github.com/Devin-Bielejec/DOM-II/blob/Devin-Bielejec/img/dblclick.jpg)
+	![dblclick](https://github.com/Devin-Bielejec/DOM-II/blob/Devin-Bielejec/img/dblclick.JPG)
 	* [X] `mouseenter`
-	![mouseenter](https://github.com/Devin-Bielejec/DOM-II/blob/Devin-Bielejec/img/mouseenter.jpg)
+	![mouseenter](https://github.com/Devin-Bielejec/DOM-II/blob/Devin-Bielejec/img/mouseenter.JPG)
 	* [X] `mouseleave`
-	![mouseleave](https://github.com/Devin-Bielejec/DOM-II/blob/Devin-Bielejec/img/mouseleave.jpg)
+	![mouseleave](https://github.com/Devin-Bielejec/DOM-II/blob/Devin-Bielejec/img/mouseleave.JPG)
 	* [X] `mouseout`
-	![mouseout](https://github.com/Devin-Bielejec/DOM-II/blob/Devin-Bielejec/img/mouseout.jpg)
+	![mouseout](https://github.com/Devin-Bielejec/DOM-II/blob/Devin-Bielejec/img/mouseout.JPG)
 	* [X] `mouseup`
-	![mouseup](https://github.com/Devin-Bielejec/DOM-II/blob/Devin-Bielejec/img/mouseup.jpg)
+	![mouseup](https://github.com/Devin-Bielejec/DOM-II/blob/Devin-Bielejec/img/mouseup.JPG)
 	* [X] `scroll`
-	![scroll]https://github.com/Devin-Bielejec/DOM-II/blob/Devin-Bielejec/img/scroll.jpg
+	![scroll]https://github.com/Devin-Bielejec/DOM-II/blob/Devin-Bielejec/img/scroll.JPG
 
 Using the 10 unique events, find ways to update the DOM in creative ways. For example you could change colors, animate objects, remove objects, etc.
 
