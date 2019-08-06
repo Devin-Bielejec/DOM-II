@@ -11,7 +11,7 @@ Fun Bus wants you to make their site more interactive. They are relying on you t
 **Follow these steps to set up and work on your project:**
 
 * [X] Create a forked copy of this project.
-* [ ] Add your project manager as collaborator on Github.
+* [X] Add your project manager as collaborator on Github.
 * [X] Clone your OWN version of the repository (Not Lambda's by mistake!).
 * [X] Create a new branch: git checkout -b `<firstName-lastName>`.
 * [X] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
@@ -19,17 +19,19 @@ Fun Bus wants you to make their site more interactive. They are relying on you t
 
 **Follow these steps for completing your project.**
 
-* [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+* [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 * [ ] Add your project manager as a reviewer on the pull-request
 * [ ] Your project manager will count the project as complete by merging the branch back into master.
 
 ## Task 1: Set Up LESS Preprocessor
 
 * [X] Verify that you have LESS installed correctly by running `lessc -v` in your terminal, if you don't get a version message back, reach out to your project manager for help.
+![correction less version](https://github.com/Devin-Bielejec/DOM-II/blob/Devin-Bielejec/img/lesscv.JPG)
 
 * [X] Open your terminal and navigate to your preprocessing project by using the `cd` command
 
 * [X] Once in your project's root folder, run the following command `less-watch-compiler less css index.less`
+![lesswatchcompiler](https://github.com/Devin-Bielejec/DOM-II/blob/Devin-Bielejec/img/lesswatchcompiler.JPG)
 
 * [X] Verify your compiler is working correctly by changing the `background-color` on the `html` selector to `red` in your `index.less` file.
 
@@ -63,7 +65,7 @@ Using the 10 unique events, find ways to update the DOM in creative ways. For ex
 
 * [X] Nest two similar events somewhere in the site and prevent the event propagation properly
 ![Stop Propagation](https://github.com/Devin-Bielejec/DOM-II/blob/Devin-Bielejec/img/stopPropagation.JPG)
-* [ ] Stop the navigation from items from refreshing the page by using `preventDefault()`
+* [X] Stop the navigation from items from refreshing the page by using `preventDefault()`
 ![Prevent Default](https://github.com/Devin-Bielejec/DOM-II/blob/Devin-Bielejec/img/preventDefault.JPG)
 
 ## Stretch Task:
