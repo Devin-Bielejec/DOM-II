@@ -1,3 +1,7 @@
+Challegne for Tuesday:
+https://codepen.io/dbielejec/pen/LwzqJB?editors=1010
+
+
 # DOM II - Event Exploration
 
 Fun Bus wants you to make their site more interactive. They are relying on you to provide 10 unique events to enhance their site. Explore the many events available to you by using the [MDN events reference](https://developer.mozilla.org/en-US/docs/Web/Events).
@@ -6,49 +10,63 @@ Fun Bus wants you to make their site more interactive. They are relying on you t
 
 **Follow these steps to set up and work on your project:**
 
-* [ ] Create a forked copy of this project.
-* [ ] Add your project manager as collaborator on Github.
-* [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-* [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-* [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-* [ ] Push commits: git push origin `<firstName-lastName>`.
+* [X] Create a forked copy of this project.
+* [X] Add your project manager as collaborator on Github.
+* [X] Clone your OWN version of the repository (Not Lambda's by mistake!).
+* [X] Create a new branch: git checkout -b `<firstName-lastName>`.
+* [X] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+* [X] Push commits: git push origin `<firstName-lastName>`.
 
 **Follow these steps for completing your project.**
 
-* [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+* [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 * [ ] Add your project manager as a reviewer on the pull-request
 * [ ] Your project manager will count the project as complete by merging the branch back into master.
 
 ## Task 1: Set Up LESS Preprocessor
 
-* [ ] Verify that you have LESS installed correctly by running `lessc -v` in your terminal, if you don't get a version message back, reach out to your project manager for help.
+* [X] Verify that you have LESS installed correctly by running `lessc -v` in your terminal, if you don't get a version message back, reach out to your project manager for help.
+![correction less version](https://github.com/Devin-Bielejec/DOM-II/blob/Devin-Bielejec/img/lesscv.JPG)
 
-* [ ] Open your terminal and navigate to your preprocessing project by using the `cd` command
+* [X] Open your terminal and navigate to your preprocessing project by using the `cd` command
 
-* [ ] Once in your project's root folder, run the following command `less-watch-compiler less css index.less`
+* [X] Once in your project's root folder, run the following command `less-watch-compiler less css index.less`
+![lesswatchcompiler](https://github.com/Devin-Bielejec/DOM-II/blob/Devin-Bielejec/img/lesswatchcompiler.JPG)
 
-* [ ] Verify your compiler is working correctly by changing the `background-color` on the `html` selector to `red` in your `index.less` file.
+* [X] Verify your compiler is working correctly by changing the `background-color` on the `html` selector to `red` in your `index.less` file.
 
-* [ ] Once you see the red screen, you can delete that style and you're ready to start on the next task
+* [X] Once you see the red screen, you can delete that style and you're ready to start on the next task
 
 ## Task 2: Create Unique Event Listeners
 
-* [ ] Using your [index.js file](js/index.js), create 10 [unique event listeners](https://developer.mozilla.org/en-US/docs/Web/Events). using your creativity to make the Fun Bus site more interactive.  Here are some unique events you could try to use: 
-	* [ ] `mouseover`
-	* [ ] `keydown`
-	* [ ] `wheel`
-	* [ ] `drag / drop`
-	* [ ] `load`
-	* [ ] `focus`
-	* [ ] `resize`
-	* [ ] `scroll`
-	* [ ] `select`
-	* [ ] `dblclick`
+* [X] Using your [index.js file](js/index.js), create 10 [unique event listeners](https://developer.mozilla.org/en-US/docs/Web/Events). using your creativity to make the Fun Bus site more interactive.  Here are some unique events you could try to use: 
+	* [X] `mouseover`
+	![mouseover](https://github.com/Devin-Bielejec/DOM-II/blob/Devin-Bielejec/img/mouseover.JPG)
+	* [X] `mousedown`
+	![mousedown](https://github.com/Devin-Bielejec/DOM-II/blob/Devin-Bielejec/img/mousedown.JPG)
+	* [X] `copy`
+	![copy](https://github.com/Devin-Bielejec/DOM-II/blob/Devin-Bielejec/img/copy.JPG)
+	* [X] `cut`
+	![cut](https://github.com/Devin-Bielejec/DOM-II/blob/Devin-Bielejec/img/cut.JPG)
+	* [X] `dblclick`
+	![dblclick](https://github.com/Devin-Bielejec/DOM-II/blob/Devin-Bielejec/img/dblclick.JPG)
+	* [X] `mouseenter`
+	![mouseenter](https://github.com/Devin-Bielejec/DOM-II/blob/Devin-Bielejec/img/mouseenter.JPG)
+	* [X] `mouseleave`
+	![mouseleave](https://github.com/Devin-Bielejec/DOM-II/blob/Devin-Bielejec/img/mouseleave.JPG)
+	* [X] `mouseout`
+	![mouseout](https://github.com/Devin-Bielejec/DOM-II/blob/Devin-Bielejec/img/mouseout.JPG)
+	* [X] `mouseup`
+	![mouseup](https://github.com/Devin-Bielejec/DOM-II/blob/Devin-Bielejec/img/mouseup.JPG)
+	* [X] `scroll`
+	![scroll](https://github.com/Devin-Bielejec/DOM-II/blob/Devin-Bielejec/img/scroll.JPG)
 
 Using the 10 unique events, find ways to update the DOM in creative ways. For example you could change colors, animate objects, remove objects, etc.
 
-* [ ] Nest two similar events somewhere in the site and prevent the event propagation properly
-* [ ] Stop the navigation from items from refreshing the page by using `preventDefault()`
+* [X] Nest two similar events somewhere in the site and prevent the event propagation properly
+![Stop Propagation](https://github.com/Devin-Bielejec/DOM-II/blob/Devin-Bielejec/img/stopPropagation.JPG)
+* [X] Stop the navigation from items from refreshing the page by using `preventDefault()`
+![Prevent Default](https://github.com/Devin-Bielejec/DOM-II/blob/Devin-Bielejec/img/preventDefault.JPG)
 
 ## Stretch Task:
 
